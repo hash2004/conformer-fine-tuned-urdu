@@ -30,7 +30,7 @@ The fine-tuning process utilized the **Urdu dataset** from Mozilla's Common Voic
 
 ### Hardware
 - **Google Colab Pro**: Fine-tuning was performed on an **NVIDIA A100 GPU** over approximately **5 hours**.  
-- The GPU was utilized at only one-quarter of its capacity, demonstrating the efficiency of the model and training process.
+- The GPU was utilized at only one-quarter of its capacity, so the time can be cut down more.
 
 ### Library Installations
 To avoid version conflicts, the required Python packages were installed using the provided `pip` commands. Ensure your **NVCC driver version is 16.0 or higher** when running the notebook locally.
