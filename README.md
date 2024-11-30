@@ -39,7 +39,7 @@ To avoid version conflicts, the required Python packages were installed using th
 
 ## Results
 
-The fine-tuned model achieved a **Word Error Rate (WER)** of **25.513%**, which might seem high at first glance. However, the transcriptions show remarkable accuracy in many cases:
+The fine-tuned model achieved a **Word Error Rate (WER)** of **25.513%**, which might seem high at first glance. However, considering that WER for Whisper is **23%** and the fact that transcriptions show remarkable accuracy in many cases:
 
 - **Reference**: کچھ بھی ہو سکتا ہے۔  
   **Predicted**: کچھ بھی ہو سکتا ہے۔  
@@ -49,6 +49,7 @@ The fine-tuned model achieved a **Word Error Rate (WER)** of **25.513%**, which 
 - **Reference**: اورکوئی جمہوریت کو کوس رہا ہے۔  
   **Predicted**: اور کوئ جمہوریت کو  کو س رہا ہے۔  
 
-These results are impressive given the limited fine-tuning time and highlight the potential for further refinement.
+We can say that results are impressive given the limited fine-tuning time and highlight the potential for further refinement.
 
 ---
+You can find the fine tuned model on 🤗 [Hugging Face](https://huggingface.co/hash2004/parakeet-fine-tuned-urdu). 
